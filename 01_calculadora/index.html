@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Calculadora</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<div class="container">
+
+		<div class="descricao">
+			<h2>Instruções do projeto</h2>
+
+			<p>Com os conceitos aprendidos, crie um programa de calculadora que:</p> 
+			<ul>
+				<li>receba dois valores, que devem ser salvos em variáveis; </li>
+				<li>o usuário deve colocar qual operador ele vai utilizar por meio dos símbolos aritméticos;</li>
+				<li>com os dois valores e o operador definido, o programa deve fazer a operação e retornar o resultado; </li>
+				<li>se houver divisão, você deve retornar o resultado e a sobra, caso haja alguma.</li>
+			</ul>	
+		</div>
+
+		<form action="">
+			<div class="form-container">
+				<label for="num1">Digite o primeiro número: </label>
+				<input type="number" name="num1" id="num1">	
+			</div>
+			
+			<div class="form-container">
+				<label for="num2">Digite o segundo número:</label>
+				<input type="number" name="num2" id="num2">	
+			</div>
+			
+			<div class="form-container">
+				<label for="operador">Operador:</label>
+				<input type="text" name="operador" id="operador">	
+			</div>
+			
+			<p class="resposta"></p>
+			<input type="submit" value="Calcule" class="botao">
+		</form>	
+
+	</div>
+	
+	<script src="script.js"></script>
+</body>
+</html>
